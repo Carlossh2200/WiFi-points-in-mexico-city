@@ -1,0 +1,163 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+footer{
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: #7064dc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #b39ede;
+    
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .imageContainer{
+    display: flex;
+    justify-content: start;
+    width: 30%;
+    height: 72px;
+    bottom: 0;
+    
+  }
+
+  .botonWifi{
+    max-height: 20px;
+    box-shadow: none;
+
+  }
+
+  .imagenWifiCdmx{
+    display: flex;
+    justify-content: start;
+    max-height: 100px;
+    box-shadow: none;
+    margin-top: -50px;
+  }
+
+  .welcome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    height: 300px;
+  }
+
+  .welcomeImageContainer{
+    width: 500px;
+    height: 400px;
+    display: flex; 
+    justify-content: left;
+    margin-bottom: 20px;
+    padding-top: 0px;
+  }
+
+  .sharedBanner{
+    width: 100;
+    height: 500px;
+  }
+
+  .welcomeText h2{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    position:relative;
+    line-height: 1.1;
+    padding-bottom: 20px;
+    color: rgb(50, 138, 205);
+    padding-top: 20px;
+    margin-left: 400px;
+    margin-top: 150px;
+    color: #7064dc;
+  }
+
+  .welcomeText p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    
+  }
+
+  .welcomeButton{
+    position:absolute;
+    bottom: 140px;
+    left: 80%;
+    transform: translateX(-50%);
+    margin-bottom: 200px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+
+  }
+  
+  .paragraph{
+    width: 100%;
+    height: auto;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraphText h2{
+    color: #7064dc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .paragraphText p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    padding: 20px;
+  }
+
+  .guyImage{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 140%;
+    left: 40%;
+    margin-bottom: 100px;
+  }
